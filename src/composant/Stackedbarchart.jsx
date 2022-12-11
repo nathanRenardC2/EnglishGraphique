@@ -4,11 +4,9 @@ import Chart from "react-apexcharts"
 export default function Stackedbarchart(){
     return(
         <React.Fragment>
-            <div>
+            <div className="max-w-7xl max-h-7xl h-full w-full">
                 <Chart
                 type="bar"
-                width={1500}
-                height={940}
                 series={[
                     {
                         name: "Economic violence",
@@ -86,7 +84,7 @@ export default function Stackedbarchart(){
                                 return y;
                             }
                         }
-                    }
+                    },
                 }}
                 
                 />

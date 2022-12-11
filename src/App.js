@@ -5,7 +5,7 @@ import Stackedbarchart from './composant/Stackedbarchart';
 function App() {
 
   return (
-    <div className="App">
+    <div className='h-screen w-screen flex justify-center items-center'>
       <Stackedbarchart></Stackedbarchart>
     </div>
   );
